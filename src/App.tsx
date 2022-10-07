@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
-import Text from '@/Pages/Text'
+import Layout from './components/Layout'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1 className="text-red-500">
-      Hello, World!{count + 10}
-      <Text></Text>
-    </h1>
+    <>
+      <Layout />
+    </>
+
   )
 }
 
