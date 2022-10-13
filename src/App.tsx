@@ -1,29 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import Layout from './components/Layout'
-import { render } from "react-dom";
-import ProductList from '@/pages/ProductList'
+import ProductList from '@/pages/ProductList/ProductList'
 import Home from '@/pages/Home'
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import routes from './lib/routes'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Layout >
+      <Layout>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Home />} />
-            <Route path='/product-list' element={<ProductList />}></Route>
+            <>
+              {routes.map(({ path, element }, index) => {
+                return <Route key={index} path={path} element={element}></Route>
+              })}
+            </>
           </Routes>
         </BrowserRouter>
       </Layout>
     </>
-
   )
 }
 
