@@ -1,7 +1,6 @@
 {
   "name": "react_vite",
   "private": true,
-  "homepage": "https://github.com/a91123/react_vite",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
