@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import MenuItem from '@/components/Layout/MenuItem'
 import { menus } from '@/lib/menus'
-import React from 'React'
+import React from 'react'
 const SideBar = () => {
   const [open, setOpen] = useState(true)
   const openHandler = () => {

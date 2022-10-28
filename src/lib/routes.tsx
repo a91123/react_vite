@@ -1,6 +1,6 @@
 import ProductList from '@/pages/ProductList/ProductList'
 import Home from '@/pages/Home'
-import React from 'React'
+import React from 'react'
 import { useRoutes } from 'react-router-dom'
 interface Routes {
   path: string
