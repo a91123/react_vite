@@ -7,17 +7,17 @@ const productList = {
     {
       name: '衝鋒衣',
       price: 500,
-      img: '/public/img/Product/pexels-godisable-jacob-794063.jpg',
+      img: '/img/Product/pexels-godisable-jacob-794063.jpg',
     },
     {
       name: '衛生衣',
       price: 1500,
-      img: '/public/img/Product/pexels-pixabay-158648.jpg',
+      img: '/img/Product/pexels-pixabay-158648.jpg',
     },
     {
       name: '狗狗衣',
       price: 2500,
-      img: '/public/img/Product/pexels-sebastiaan-stam-1206873.jpg',
+      img: '/img/Product/pexels-sebastiaan-stam-1206873.jpg',
     },
   ],
   shoes: [],
